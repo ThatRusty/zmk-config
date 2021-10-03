@@ -42,12 +42,12 @@ jobs:
         run: cat build/zephyr/.config | grep -v "^#" | grep -v "^$"
       - name: Rename zmk.uf2
         run: cp build/zephyr/zmk.uf2 tiny_dactyl_left_nice_nano_v2.uf2
-      - name: Archive (Tiny Dactyl Left)
+      - name: Archive (Tiny Dactyl L)
         uses: actions/upload-artifact@v2
         with:
           name: firmware
           path: tiny_dactyl_left_nice_nano_v2.uf2
-      - name: West Build (Tiny Dactyl Right)
+      - name: West Build (Tiny Dactyl R)
         run: west build --pristine -s zmk/app -b nice_nano_v2 -- -DSHIELD=tiny_dactyl-right -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
 
       - name: Tiny Dactyl Right Kconfig file
@@ -58,4 +58,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: firmware
-          path: tiny_dactyl_right_nice_nano_v2.uf2
+          path: tiny_dactyl_right_nice_nano_v2.uf2 

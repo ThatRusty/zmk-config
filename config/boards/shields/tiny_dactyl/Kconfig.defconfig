@@ -1,7 +1,7 @@
 if SHIELD_TINY_DACTYL_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Tiny Dactyl"  //might need to be all lowercase
+    default "tiny_dactyl-left"  //might need to be all lowercase
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
@@ -11,7 +11,7 @@ endif
 if SHIELD_TINY_DACTYL_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "Tiny Dactyl - right"
+    default "tiny_dactyl-right"
 
 endif
 

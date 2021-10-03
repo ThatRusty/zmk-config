@@ -1,21 +1,21 @@
-if SHIELD_DACTYL_STABILIZED_LEFT
+if SHIELD_TINY_DACTYL_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "dstab-left"
+    default "Tiny Dactyl"  //might need to be all lowercase
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_DACTYL_STABILIZED_RIGHT
+if SHIELD_TINY_DACTYL_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "dstab-right"
+    default "Tiny Dactyl - right"
 
 endif
 
-if SHIELD_DACTYL_STABILIZED_LEFT || SHIELD_DACTYL_STABILIZED_RIGHT
+if SHIELD_TINY_DACTYL_LEFT || SHIELD_TINY_DACTYL_RIGHT
 
 config ZMK_SPLIT
     default y

@@ -15,11 +15,11 @@
         // TODO: SWAP SHIFTED KEYS SOMEHOW
         default_layer {
 // ------------------------------------------------------------------------------------------------------------
-// |  Q  |  W  |   F  |   P   |   B   |                     |   J   |   L   |   U   |   Y   |   '   | 
-// |  A  |  R  |   S  |   T   |   G   |                     |   M   |   N   |   E   |   I   |   O   | 
-// |  Z  |  X  |   C  |   D   |   V   |                     |   K   |   H   |   ,   |   .   |   /   |
-//       | Alt |  GUI |  Esc  |  Spc  | Raise |     | Lower |  bksp |  xxx  |  xxx  |  xxx  |
-//                            | Ctrl  | Shift |     | Shift |  Ctrl |
+// |  Q   |  W   |   F  |   P   |   B   |                     |   J   |   L   |   U   |   Y   |   '   | 
+// | A/gui|R/alt |   S  |T/shft |   G   |                     |   M   | N/shft|   E   |   I   |   O   | 
+// |  Z   |  X   |   C  |   D   |   V   |                     |   K   |   H   |   ,   |   .   |   /   |
+//        | xxx  |  xxx |  Esc  |  Spc  | Raise |     | Lower |  bksp |  Del  |   ;   |   \   |
+//                              | Ctrl  | Shift |     | Enter |  tab  |                                                                                           |
 //
             bindings = <
 &kp N1 &kp N2   &kp N3   &kp N4    &kp N5                        &kp N7      &kp N8    &kp N9    &kp N0    &kp MINUS

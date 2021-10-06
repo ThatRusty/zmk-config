@@ -22,11 +22,11 @@
 //                                   |  xxx  |  Tab  |     | Enter |  xxx  |                                                                                           |
 //
             bindings = <
-&kp Q       &kp W        &kp F         &kp P          &kp B                             &kp J     &kp L         &kp U         &kp Y    &kp APOS
-&mt LGUI A  &mt LALT R   &mt LCTRL S   &mt LSHFT T    &kp G                             &kp M     &mt RSHFT N   &mt RCTRL E   &kp I    &kp O
-&kp Z       &kp X        &kp C         &kp D          &kp V                             &kp K     &kp H         &kp COMMA     &kp DOT  &kp FSLH    
-            &none        &none         &kp ESC        &kp SPACE  &none       &none      &kp BSPC  &kp DEL       &kp none      &none
-                                                      &none      &kp TAB     &kp ENTER  &none   
+&kp Q       &kp W        &kp F         &kp P          &kp B                                   &kp J     &kp L         &kp U         &kp Y        &kp APOS
+&mt LGUI A  &mt LALT R   &mt LCTRL S   &mt LSHFT T    &kp G                                   &kp M     &mt RSHFT N   &mt RCTRL E   &mt RALT I   &mt RGUI O
+&kp Z       &kp X        &kp C         &kp D          &kp V                                   &kp K     &kp H         &kp COMMA     &kp DOT      &kp FSLH    
+            &none        &none         &kp ESC        &lt LOWER SPACE  &none       &none      &kp BSPC  &kp DEL       &kp SEMI      &BSLH
+                                                      &none            &kp TAB     &kp ENTER  &none   
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -34,10 +34,10 @@
 
         lower_layer {
 // ------------------------------------------------------------------------------------------------------------
-// |  F1 | F2  |  F3  |  F4  |  F5  |                     |  F8   |  F9   |  F10  |  F11  |  F12  |
-// |     |     |      |      |      |                     |   7   |   8   |   9   |       |       |
-// |     |     |      |      |      |                     |   4   |   5   |   6   |   *   |       |
-//       |     |      |      |      |  xxx  |     |  xxx  |   1   |   2   |   3   |   /   |       
+// |  F1 | F2  |  F3  |  F4  |  F5  |                     |  xxx  |   7   |   8   |   9   |  xxx  |
+// |     |     |      |      |      |                     |  xxx  |   4   |   5   |   6   |  xxx  |
+// |     |     |      |      |      |                     |  xxx  |   1   |   2   |   3   |  xxx  |
+//       |     |      |      |      |  xxx  |     |  xxx  |  xxx  |  xxx  |   0   |  xxx  |       
 //                           |  xxx |  xxx  |     |  xxx  |  xxx  |
             bindings = <
 &kp F1    &kp F2    &kp F3    &kp F4    &kp F5                        &kp F8     &kp F9    &kp F10   &kp F11  &kp F12
